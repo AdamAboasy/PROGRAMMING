@@ -1,7 +1,6 @@
 body {
     background-color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+    
 }
 
 a {
@@ -10,9 +9,20 @@ a {
     margin-left: 10px;
     text-decoration: none;
     transition: 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
 
 a:hover {
     margin-left: 35px;
     text-decoration: underline;
+}
+h1 {
+color: white;
+justify-content: center;
+justify-self: center;
+}
+
+.p {
+    color: white;
 }
