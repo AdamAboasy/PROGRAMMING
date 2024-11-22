@@ -5,7 +5,7 @@ body {
     color: white;
 }
 
-h1 {
+h2 {
     display: flex;
     justify-self: center;
 }
@@ -22,5 +22,4 @@ text-decoration: none;
 padding: 2px 10px;
 margin-right: 30px;
 }
-
 
