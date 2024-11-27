@@ -1,0 +1,32 @@
+body {
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    margin-left: 35%;
+}
+
+h3 {
+    text-decoration: solid;
+}
+
+.back {
+    color: black;
+    background-color: red;
+    border-radius: 30%;
+    text-decoration: none;
+    padding: 2px 10px;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+.back:hover {
+    color: black;
+    background-color: rgb(176, 44, 44);
+    border-radius: 30%;
+    text-decoration: none;
+    padding: 2px 10px;
+    margin-right: 30px;
+}
