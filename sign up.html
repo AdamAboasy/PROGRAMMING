@@ -1,31 +1,47 @@
-<doctyoe .html></doctyoe>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up Page</title>
-    <link rel="stylesheet" href="sign-up.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='sign-up.css'>
+    <title>Signup Page with Login Check</title>
+    <style>
+
+    </style>
 </head>
-
 <body>
-    <div class="signup-contain">
-        <h2>Sign Up</h2>
-        <form action="Caspar.html" id="signup-form">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required minlength="10" maxlength="15">
-            <input type="submit" value="Sign Up" class="linsksd">
-        </form>
+    
+<div class="car"></div>
+    <div class="signup-container">
+        <div class="signup-content">
+            <div style="all:unset" class="not">
+        <h2>Create an Account</h2>
     </div>
+    <i class="i">
+        <form action="Caspar.html" method="POST" class="not">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"  placeholder="Enter your name" required>
+            </div>
+        
 
-    <script src="script.js"></script>
-    <script src="scripts.js"></script>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required>
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+    
+        <div class="form-footer">
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </div>
+</div>
+</i>
 </body>
-
 </html>
+
