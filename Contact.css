@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+
+.contact {
+    color: white;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.contact:hover {
+    background-color: #333;
+    color: orangered;
+    text-decoration: none;
+}
