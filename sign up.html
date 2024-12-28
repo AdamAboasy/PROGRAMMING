@@ -1,47 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type='text/css' media='screen' href='sign-up.css'>
-    <title>Signup Page with Login Check</title>
-    <style>
-
-    </style>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign-up.css">
 </head>
+
 <body>
-    
-<div class="car"></div>
     <div class="signup-container">
-        <div class="signup-content">
-            <div style="all:unset" class="not">
-        <h2>Create an Account</h2>
-    </div>
-    <i class="i">
-        <form action="Caspar.html" method="POST" class="not">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name"  placeholder="Enter your name" required>
+        <h2>Sign Up</h2>
+        <form action="Caspar.html" id="signupForm">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
             </div>
-        
-
-            <div class="form-group">
+            <div class="input-group">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <input type="email" id="email" name="email" required>
             </div>
-            <div class="form-group">
+            <div class="input-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="Create a password" required>
+                <input type="password" id="password" name="password" required>
             </div>
-            <button type="submit" class="btn">Sign Up</button>
+            <input type="submit" id="signupButton" value="sign-up">
         </form>
-    
-        <div class="form-footer">
-            <p>Already have an account? <a href="login.html">Login</a></p>
-        </div>
     </div>
-</div>
-</i>
-</body>
-</html>
 
+    <!-- <script src="script.js"></script> -->
+    <script src="server.js"></script>
+</body>
+
+</html>
