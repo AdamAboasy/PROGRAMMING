@@ -1,0 +1,165 @@
+/* Default (light mode)
+
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+
+Dark mode 
+
+body.dark-mode {
+    --background-color: #333333;
+    --text-color: #ffffff;
+} */
+
+body {
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.main {
+    display: block;
+    background-color: yellow;
+    color: black;
+    margin-left: 1000px;
+    border-radius: 20%;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    font-weight: bolder;
+}
+
+.main:hover {
+    background-color: darkblue;
+    color: white;
+    font-weight: bolder;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.H {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+.H:hover {
+    margin-left: 22px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.la {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.la:hover {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.ar {
+    display: block;
+    border-radius: 20%;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    background-color: blue;
+    color: white;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.ar:hover {
+    background-color: rgb(33, 192, 189);
+    color: #333333;
+}
+
+.a2 {
+    display: block;
+    background-color: yellow;
+    color: black;
+    margin-left: 1200px;
+    border-radius: 20%;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+}
+
+.a2:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.fr {
+    display: block;
+    font-size: 125%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 500px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 100px;
+}
+
+.fr:hover {
+    background-color: rgb(33, 192, 189);
+    color: #333333;
+}
+
+.a3 {
+    display: block;
+    background-color: yellow;
+    color: black;
+    margin-left: 1000px;
+    border-radius: 20%;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    padding: 5px 15px;
+}
+
+.a3:hover {
+    background-color: cyan;
+    color: black;
+}
